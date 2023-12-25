@@ -33,6 +33,7 @@ export const Card = styled.div`
         padding-right: 1rem;
     }
 
+    /* RESPONSIVO */
     @media(max-width: 1700px){
         width: 30.1%;
     }

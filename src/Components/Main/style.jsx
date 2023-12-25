@@ -15,6 +15,8 @@ export const Style_Cards = styled.main`
     max-width: 50%;
   }
 
+  /* RESPONSIVO */
+
   @media (max-width: 1440px) {
     width: 95%;
   }
@@ -22,7 +24,6 @@ export const Style_Cards = styled.main`
   @media (max-width: 968px) {
     .lastCard:nth-last-child(2) {
       flex-grow: 0;
-      /* max-width: 100%; */
     }
 
     .lastCard:nth-last-child(1) {
@@ -31,11 +32,11 @@ export const Style_Cards = styled.main`
     }
   }
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     .lastCard:nth-last-child(2) {
-    flex-grow: 0;
-    max-width: 100%;
-  }
+      flex-grow: 0;
+      max-width: 100%;
+    }
   }
 `;
 

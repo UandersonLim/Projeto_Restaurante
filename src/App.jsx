@@ -2,10 +2,7 @@ import GlobalStyled from "./GlobalStyle";
 import Banner from "./Components/Banner";
 import EscolhaDoUsuario from "./Components/Escolha_Do_Usuario";
 
-
 function App() {
-
-
   return (
     <>
       <GlobalStyled />
@@ -18,7 +15,6 @@ function App() {
         saladas={"Saladas"}
         sobremesas={"Sobremesas"}
       />
-      
     </>
   );
 }

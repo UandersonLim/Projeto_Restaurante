@@ -1,15 +1,12 @@
 import styled from "styled-components";
 
 const Container_Escolha = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 const Caixa_botao = styled.div`
   display: flex;
@@ -17,7 +14,6 @@ const Caixa_botao = styled.div`
   margin: 3rem 0;
   width: 75%;
   justify-content: space-between;
-  
 
   button {
     display: flex;
@@ -46,48 +42,46 @@ const Caixa_botao = styled.div`
     background-color: #daa520;
   }
 
-  @media(max-width: 1768px){
-    button{
+  /* RESPONSIVO */
+  @media (max-width: 1768px) {
+    button {
       padding: 15px 35px;
     }
   }
 
-  @media(max-width: 1440px){
+  @media (max-width: 1440px) {
     width: 95%;
 
-    button{
+    button {
       padding: 15px 27px;
     }
-
   }
 
-  @media(max-width: 1024px){
+  @media (max-width: 1024px) {
     flex-wrap: wrap;
     gap: 5px;
 
-    button:nth-last-child(-n+2){
-        flex-grow: 1;
+    button:nth-last-child(-n + 2) {
+      flex-grow: 1;
     }
 
-    button{
+    button {
       padding: 15px 45px;
       font-size: 12px;
     }
   }
-  
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     justify-content: center;
 
-    button{
+    button {
       font-size: 12px;
       width: 40%;
     }
 
-    button:nth-last-child(-n+2){
-        flex-grow: 0;
+    button:nth-last-child(-n + 2) {
+      flex-grow: 0;
     }
-
   }
 `;
 
@@ -109,8 +103,6 @@ const Caixa_Input = styled.div`
     font-size: 46px;
     margin-bottom: 1rem;
   }
-
- 
 `;
 
 const Buscar_Input = styled.input`
@@ -126,15 +118,17 @@ const Buscar_Input = styled.input`
   font-size: 20px;
   font-weight: 600;
 
-  @media(max-width: 1440px){
+  /* RESPONSIVO */
+
+  @media (max-width: 1440px) {
     width: 97%;
   }
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 80%;
   }
 
-  @media(max-width: 480px){
+  @media (max-width: 480px) {
     font-size: 65%;
   }
 `;

@@ -5,10 +5,6 @@ const Figure = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* @media (max-width: 1440px) {
-    width: 100%;
-  } */
 `;
 
 const Header = styled.header`
@@ -38,32 +34,31 @@ const Header = styled.header`
     text-align: center;
   }
 
-  @media(max-width: 1440px){
+  @media (max-width: 1440px) {
     width: 100%;
   }
 
-  @media(max-width: 750px){
+  @media (max-width: 750px) {
     height: 45vh;
 
-    h1{
+    h1 {
       font-size: 50px;
     }
 
-    p{
+    p {
       font-size: 25px;
     }
   }
 
-  @media(max-width: 480px){
+  @media (max-width: 480px) {
     height: 30vh;
 
-    h1{
+    h1 {
       font-size: 20px;
     }
 
-    p{
+    p {
       font-size: 18px;
-      /* background-color: #fff; */
     }
   }
 `;
