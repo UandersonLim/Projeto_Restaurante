@@ -67,7 +67,6 @@ const Caixa_botao = styled.div`
 
     button:nth-last-child(-n+2){
         flex-grow: 1;
-        /* width: 49.5%; */
     }
 
     button{
@@ -75,9 +74,20 @@ const Caixa_botao = styled.div`
       font-size: 12px;
     }
   }
+  
 
   @media(max-width: 768px){
-    
+    justify-content: center;
+
+    button{
+      font-size: 12px;
+      width: 40%;
+    }
+
+    button:nth-last-child(-n+2){
+        flex-grow: 0;
+    }
+
   }
 `;
 
@@ -118,6 +128,14 @@ const Buscar_Input = styled.input`
 
   @media(max-width: 1440px){
     width: 97%;
+  }
+
+  @media(max-width: 768px){
+    font-size: 80%;
+  }
+
+  @media(max-width: 480px){
+    font-size: 65%;
   }
 `;
 

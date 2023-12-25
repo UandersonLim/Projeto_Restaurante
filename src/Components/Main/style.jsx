@@ -30,6 +30,13 @@ export const Style_Cards = styled.main`
       max-width: 100%;
     }
   }
+
+  @media(max-width: 768px){
+    .lastCard:nth-last-child(2) {
+    flex-grow: 0;
+    max-width: 100%;
+  }
+  }
 `;
 
 export const Box_Main = styled.div`

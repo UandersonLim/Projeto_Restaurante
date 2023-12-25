@@ -42,13 +42,28 @@ const Header = styled.header`
     width: 100%;
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 750px){
+    height: 45vh;
+
     h1{
       font-size: 50px;
     }
 
     p{
-      font-size: 30px;
+      font-size: 25px;
+    }
+  }
+
+  @media(max-width: 480px){
+    height: 30vh;
+
+    h1{
+      font-size: 20px;
+    }
+
+    p{
+      font-size: 18px;
+      /* background-color: #fff; */
     }
   }
 `;

@@ -53,7 +53,7 @@ export const Card = styled.div`
         width: 46%;
     }
 
-    /* @media(max-width: 765px){
-        width: 47%;
-    } */
+    @media(max-width: 765px){
+        width: 100%;
+    }
 `
