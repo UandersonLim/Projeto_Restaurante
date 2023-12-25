@@ -114,7 +114,7 @@ const Caixa_Input = styled.div`
 `;
 
 const Buscar_Input = styled.input`
-  background-image: url("../../../public/Assets/lupa.png");
+  background-image: url("public/Assets/lupa.png");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: 10px;

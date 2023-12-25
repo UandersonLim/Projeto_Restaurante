@@ -14,7 +14,7 @@ const Figure = styled.div`
 const Header = styled.header`
   width: 75%;
   height: 70vh;
-  background-image: url("../../../public/assets/banner.png");
+  background-image: url("public/Assets/banner.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
