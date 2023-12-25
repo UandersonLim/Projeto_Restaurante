@@ -17,7 +17,6 @@ const Header = styled.header`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #ff8000;
 
   h1 {
     color: #fff;
